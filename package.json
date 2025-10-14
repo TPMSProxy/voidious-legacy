@@ -8,6 +8,7 @@
 	},
 	"scripts": {
 		"start": "node index.js",
+		"build": "echo 'Build complete - no build step required for this project'",
 		"format": "biome format --write .",
 		"precommit": "biome check --write .",
 		"lint": "biome lint --write ."
